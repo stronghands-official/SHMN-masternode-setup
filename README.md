@@ -3,7 +3,7 @@
 If you want the commands just to UPDATE your CURRENT MN:
 
 ```
-wget https://raw.githubusercontent.com/nashsclay/StrongHands-Masternode/master/shmn_update_v24.sh
+wget https://raw.githubusercontent.com/stronghands-oficial/SHMN-masternode-setup/master/shmn_update_v24.sh
 chmod +x shmn_update_v24.sh  
 ./shmn_update_v24.sh 
 ```
@@ -11,7 +11,7 @@ chmod +x shmn_update_v24.sh
 If you just want the commands for a NEW VPS setup:
 
 ```
-wget https://raw.githubusercontent.com/nashsclay/StrongHands-Masternode/master/shmn_mn_setup.sh 
+wget https://raw.githubusercontent.com/stronghands-oficial/SHMN-masternode-setup/master/shmn_mn_setup.sh 
 chmod +x shmn_mn_setup.sh  
 ./shmn_mn_setup.sh 
 ```
@@ -22,7 +22,7 @@ Please note to run this script you MUST:
 
 1) Be root - better to login as root then use the sudo command  
 2) Ubuntu 16.04 - I only tested this on that version but I'm sure others may work.  
-3) A VPS server - You can use my referal link here --> https://www.vultr.com/?ref=7415368  
+3) A VPS server - You can use my referal link here --> https://www.vultr.com/?ref=8760144  
 4) Digital Ocean is another provider you can use instead of Vultr. There are many more but these are very common to use. You can use any size due to the swap file that will be created if your server is below 2GB of memory.  
 5) Optional - There may be other types of servers you can use but not listed here.  
 
@@ -30,7 +30,7 @@ Do note that this script does enable the MN to restart if it is somehow closed. 
 
 ## Setup Wallet on Local Computer
 
-Download the newest wallet for your computer here: https://www.stronghands.info/masternodes/
+Download the newest wallet for your computer here: https://github.com/stronghands-oficial/SHMN-source/releases/
 
 Once downloaded run the wallet and allow it to fully sync (nodes are hardcoded in the wallet)
 Once fully synced, encrypt your wallet. You can do this by selecting Settings --> Encrypt Wallet. Follow the prompts, also keeping your passphrase safe! This will allow you to send coins and make changes. Do NOT loose this passphrase. Once the wallet closes, give it a few minutes to finish encrypting (nothing will show) and restart the wallet.
@@ -76,7 +76,7 @@ Pick from the top two file choices. Newer systems use 64 bit.
 
 ## Purchase Your VPS Server
 
-I recommend using vultr. You can use my referal link if you wish. https://www.vultr.com/?ref=7415368
+I recommend using vultr. You can use my referal link if you wish. https://www.vultr.com/?ref=8760144
 Make an account with them. Once that is complete, you need to purchase a server. Use these steps to purchase a server.
 1) Click the blue circle button "Deploy New Server"
 2) Choose the closest location.
@@ -100,7 +100,7 @@ Please copy and paste the following commands into you connection with your serve
 NOTE: Don't click on the links as that will only show you code. There is no need to do so.
 
 ```
-wget https://raw.githubusercontent.com/nashsclay/StrongHands-Masternode/master/shmn_mn_setup.sh  
+wget https://raw.githubusercontent.com/stronghands-oficial/SHMN-masternode-setup/master/shmn_mn_setup.sh  
 chmod +x shmn_mn_setup.sh
 ./shmn_mn_setup.sh    
 ```
@@ -153,4 +153,7 @@ This will give you access to the folder of StrongHands-Masternode files. Notice 
 `cd ~/.shmn`
 
 
-You can alway DM me on discord at nashsclay#6809
+Questions? Need help? You can reach the support team at Telegram  https://t.me/SHNDsupport
+
+##### Author of this guide is Nashsclay, this is the version to be shown on StrongHands Docs. Original guide can be found here: 
+https://github.com/stronghands-oficial/SHMN-masternode-setup
